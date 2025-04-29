@@ -1,0 +1,46 @@
+package com.lib.automationex;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AutomationEx {
+	
+	WebDriver wd = new ChromeDriver();
+	
+	public void launch_login() {
+		wd.get("https://awesomeqa.com/ui/index.php?route=account/login");
+	}
+	
+	public void enter_email(String em) {
+		wd.findElement(By.xpath("//input[@placeholder='E-Mail Address']")).sendKeys(em);
+	}
+	
+	public void enter_password(String pw) {
+		wd.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(pw);
+	}
+	
+	public void click_login() {
+		wd.findElement(By.xpath("//input[@value='Login']")).click();		
+	}
+	
+	public String assert_login() throws InterruptedException {
+		Thread.sleep(5000);
+		WebElement w = wd.findElement(By.xpath("(//div[@id='content']//h2)[2]"));
+		return w.getText();
+	}
+	
+	public String assert_invalidLogin() throws InterruptedException {
+		Thread.sleep(5000);
+		WebElement w1 = wd.findElement(By.xpath("//div[@class='alert alert-danger alert-dismissible']"));
+		return w1.getText();
+	}
+	
+	public void navigate_back() {
+		wd.navigate().back();
+	}
+
+}

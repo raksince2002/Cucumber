@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>Day1-BDD</groupId>
-  <artifactId>Day1-BDD</artifactId>
+  <groupId>BDD-POM</groupId>
+  <artifactId>BDD-POM</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Day1-BDD</name>
+  <name>BDD-POM</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -60,6 +60,17 @@
     <artifactId>poi</artifactId>
     <version>5.2.0</version>
 </dependency>
-    
+
+
+  	<dependency>
+  		<groupId>Parallel_Test</groupId>
+  		<artifactId>Parallel_Test</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>Day1-BDD</groupId>
+  		<artifactId>Day1-BDD</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
