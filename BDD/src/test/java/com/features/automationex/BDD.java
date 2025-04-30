@@ -2,6 +2,7 @@ package com.features.automationex;
 
 import static org.testng.Assert.assertEquals;
 
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 
 import com.lib.automationex.AutomationEx;
@@ -39,6 +40,7 @@ public class BDD {
     	public void I_have_logged_into_AwesomeQA_application() throws InterruptedException {
     		String s = a.assert_login();
     		assertEquals("My Orders",s);
-    		System.out.println(s);
+//    		System.out.println(s);
+    		Reporter.log("Success");
     	}
 }
