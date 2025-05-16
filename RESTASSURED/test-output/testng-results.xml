@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-06T17:12:05 IST" name="Default suite" finished-at="2025-05-06T17:12:14 IST" duration-ms="9308">
+    <groups>
+    </groups>
+    <test started-at="2025-05-06T17:12:05 IST" name="Default test" finished-at="2025-05-06T17:12:14 IST" duration-ms="9308">
+      <class name="restdemo.RestTest">
+        <test-method signature="status_code()[pri:1, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:05 IST" name="status_code" finished-at="2025-05-06T17:12:08 IST" duration-ms="3052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_code -->
+        <test-method signature="status_Line()[pri:2, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:08 IST" name="status_Line" finished-at="2025-05-06T17:12:09 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_Line -->
+        <test-method signature="status_body()[pri:3, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:09 IST" name="status_body" finished-at="2025-05-06T17:12:11 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_body -->
+        <test-method signature="status_content()[pri:4, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:11 IST" name="status_content" finished-at="2025-05-06T17:12:12 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_content -->
+        <test-method signature="session_id()[pri:5, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:12 IST" name="session_id" finished-at="2025-05-06T17:12:13 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- session_id -->
+        <test-method signature="post_request()[pri:6, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:13 IST" name="post_request" finished-at="2025-05-06T17:12:13 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_request -->
+        <test-method signature="post_statusLine()[pri:7, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:13 IST" name="post_statusLine" finished-at="2025-05-06T17:12:14 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_statusLine -->
+        <test-method signature="GitHub()[pri:8, instance:restdemo.RestTest@52b1beb6]" started-at="2025-05-06T17:12:14 IST" name="GitHub" finished-at="2025-05-06T17:12:14 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GitHub -->
+      </class> <!-- restdemo.RestTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
